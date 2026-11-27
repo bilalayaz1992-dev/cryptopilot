@@ -1,10 +1,11 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://cryptopilot-site-tr.bilalayaz1992.workers.dev/</loc></url>
-<url><loc>https://cryptopilot-site-tr.bilalayaz1992.workers.dev/about.html</loc></url>
-<url><loc>https://cryptopilot-site-tr.bilalayaz1992.workers.dev/privacy.html</loc></url>
-<url><loc>https://cryptopilot-site-tr.bilalayaz1992.workers.dev/terms.html</loc></url>
-<url><loc>https://cryptopilot-site-tr.bilalayaz1992.workers.dev/contact.html</loc></url>
-<url><loc>https://cryptopilot-site-tr.bilalayaz1992.workers.dev/rehber-kripto-para-nedir.html</loc></url>
-<url><loc>https://cryptopilot-site-tr.bilalayaz1992.workers.dev/rehber-risk-yonetimi.html</loc></url>
+<url><loc>https://cryptopilot-site-tr.cryptopilot.workers.dev/</loc></url>
+<url><loc>https://cryptopilot-site-tr.cryptopilot.workers.dev/about.html</loc></url>
+<url><loc>https://cryptopilot-site-tr.cryptopilot.workers.dev/privacy.html</loc></url>
+<url><loc>https://cryptopilot-site-tr.cryptopilot.workers.dev/terms.html</loc></url>
+<url><loc>https://cryptopilot-site-tr.cryptopilot.workers.dev/contact.html</loc></url>
+<url><loc>https://cryptopilot-site-tr.cryptopilot.workers.dev/rehber-kripto-para-nedir.html</loc></url>
+<url><loc>https://cryptopilot-site-tr.cryptopilot.workers.dev/rehber-risk-yonetimi.html</loc></url>
 </urlset>
