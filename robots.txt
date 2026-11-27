@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cryptopilot-site-tr.bilalayaz1992.workers.dev/sitemap.xml
