@@ -15,7 +15,23 @@
 <div class="ad" id="adslot">Reklam alanı — reklam ağı onayından sonra kullanılacaktır.</div>
 <section class="section"><h2 id="learnTitle">Yeni başlayanlar için</h2><div class="grid"><article class="card"><h3 id="learn1">Kripto para nedir?</h3><p class="muted" id="learn1p">Blokzincir üzerinde çalışan dijital varlıkların temel mantığını öğren.</p></article><article class="card"><h3 id="learn2">Risk yönetimi</h3><p class="muted" id="learn2p">Volatiliteyi, kayıp ihtimalini ve tek varlığa yoğunlaşma riskini anla.</p></article><article class="card"><h3 id="learn3">Güvenli başlangıç</h3><p class="muted" id="learn3p">Cüzdan güvenliği, iki aşamalı doğrulama ve dolandırıcılık işaretlerini tanı.</p></article></div></section>
 <div class="notice" id="disclaimer">Uyarı: Bu site yalnızca bilgilendirme amaçlıdır; yatırım tavsiyesi, alım-satım sinyali veya getiri garantisi sunmaz. Kripto varlıklar yüksek risk içerir. Yatırım kararı vermeden önce kendi araştırmanı yap.</div>
-</main><footer>© <span id="year"></span> CryptoPilot · <span id="footerText">Bağımsız bilgilendirme projesi.</span> <span id="dataNote">Piyasa verisi: CoinGecko public API.</span></footer></div>
+</main><footer>© <span id="year"></span> CryptoPilot · <span id="footerText">Bağımsız bilgilendirme projesi.</span> <span id="dataNote">Piyasa verisi: CoinGecko public API.</span>
+
+<nav style="display:flex;gap:14px;flex-wrap:wrap;margin-top:16px">
+
+<a href="about.html">Hakkımızda</a>
+
+<a href="contact.html">İletişim</a>
+
+<a href="rehber-kripto-para-nedir.html">Kripto para nedir?</a>
+
+<a href="rehber-risk-yonetimi.html">Risk yönetimi</a>
+
+<a href="privacy.html">Gizlilik Politikası</a>
+
+<a href="terms.html">Kullanım Şartları</a>
+
+</nav></footer></div>
 <script>
 const $=id=>document.getElementById(id);let lang='tr',allCoins=[];const text={tr:{eyebrow:'Piyasayı daha bilinçli takip et',headline:'Kripto dünyasında rotanı kendin çiz.',intro:'Bitcoin, Ethereum ve seçili kripto varlıkların fiyatlarını takip et; temel kavramları sade anlatımlarla öğren. CryptoPilot yatırım tavsiyesi vermez.',market:'Piyasa durumu',waiting:'Canlı veri bekleniyor',updated:'Fiyatlar CoinGecko üzerinden alınır.',watch:'Takip listesi',search:'Coin ara…',loading:'Piyasa verileri yükleniyor…',learn:'Yeni başlayanlar için',l1:'Kripto para nedir?',l1p:'Blokzincir üzerinde çalışan dijital varlıkların temel mantığını öğren.',l2:'Risk yönetimi',l2p:'Volatiliteyi, kayıp ihtimalini ve tek varlığa yoğunlaşma riskini anla.',l3:'Güvenli başlangıç',l3p:'Cüzdan güvenliği, iki aşamalı doğrulama ve dolandırıcılık işaretlerini tanı.',disclaimer:'Uyarı: Bu site yalnızca bilgilendirme amaçlıdır; yatırım tavsiyesi, alım-satım sinyali veya getiri garantisi sunmaz. Kripto varlıklar yüksek risk içerir. Yatırım kararı vermeden önce kendi araştırmanı yap.',footer:'Bağımsız bilgilendirme projesi.',ad:'Reklam alanı — reklam ağı onayından sonra kullanılacaktır.'},en:{eyebrow:'Follow the market with clarity',headline:'Navigate the crypto world on your terms.',intro:'Track Bitcoin, Ethereum and selected crypto assets, and learn the basics in plain language. CryptoPilot does not provide investment advice.',market:'Market status',waiting:'Waiting for live data',updated:'Prices are provided by CoinGecko.',watch:'Watchlist',search:'Search coins…',loading:'Loading market data…',learn:'For beginners',l1:'What is cryptocurrency?',l1p:'Learn the basics of digital assets that operate on blockchain networks.',l2:'Risk management',l2p:'Understand volatility, potential losses and concentration risk.',l3:'Getting started safely',l3p:'Learn about wallet security, two-factor authentication and scam warning signs.',disclaimer:'Disclaimer: This website is for informational purposes only. It does not provide investment advice, trading signals or guarantees of returns. Crypto assets are high risk. Do your own research before making investment decisions.',footer:'Independent information project.',ad:'Ad space — available after approval by an ad network.'}};
 function setLang(v){lang=v;let t=text[v];['eyebrow','headline','intro'].forEach(k=>$(k).textContent=t[k]);$('marketlabel').textContent=t.market;$('marketstatus').textContent=t.waiting;$('updated').textContent=t.updated;$('watchTitle').textContent=t.watch;$('search').placeholder=t.search;$('learnTitle').textContent=t.learn;[['learn1','l1'],['learn1p','l1p'],['learn2','l2'],['learn2p','l2p'],['learn3','l3'],['learn3p','l3p']].forEach(([a,b])=>$(a).textContent=t[b]);$('disclaimer').textContent=t.disclaimer;$('footerText').textContent=t.footer;$('adslot').textContent=t.ad;$('tr').classList.toggle('active',v==='tr');$('en').classList.toggle('active',v==='en');renderCoins();}
